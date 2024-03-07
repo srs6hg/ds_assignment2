@@ -11,11 +11,13 @@ int main() {
 	int cn;
 	string s;
 	bool tf=1;
+	cout << "LinkedList (1) or Stack (2):\n";
 	cin >> n;
 	switch (n){
 	case 1:
 		while (tf) {
 			cout << "\nLinkedList\n";
+			cout << "1. push_front\n2. push_back\n3. pop_front\n4. pop_back\n5. front\n6. back\n7. empty\n8. insert\n9. remove\n10. find\n\n";
 			cin >> n2;
 			switch (n2) {
 			case 1:
@@ -68,6 +70,7 @@ int main() {
 	case 2:
 		while (tf) {
 			cout << "\nStack\n";
+			cout << "1. empty\n2. push\n3. pop\n4. front\n5. average\n\n";
 			cin >> n2;
 			switch (n2) {
 			case 1:
