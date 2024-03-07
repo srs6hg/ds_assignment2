@@ -5,8 +5,9 @@ using namespace std;
 
 class Stack {
 private:
-    vector<int> vStack{};
+    vector<int> vStack;
 public:
+    Stack();
     bool empty();
     void push(int);
     void pop();

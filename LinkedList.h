@@ -1,5 +1,5 @@
 #pragma once
-#include <string>
+#include <String>
 
 using namespace std;
 
@@ -15,7 +15,6 @@ private:
     int numItems = 0;
 public:
     Linked();
-    Linked(string);
     void pushFront(string);
     void pushBack(string);
     void popFront();

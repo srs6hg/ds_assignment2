@@ -1,5 +1,9 @@
 #include "Stack.h"
 
+Stack::Stack() {
+	vStack = {};
+}
+
 bool Stack::empty() {
 	if (vStack.empty())
 		return true;

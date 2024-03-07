@@ -1,1 +1,7 @@
-﻿
+﻿  main.cpp
+  LinkedList.cpp
+  Stack.cpp
+C:\Users\Shawn\source\repos\ds_assignment2\Stack.cpp(29,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+C:\Users\Shawn\source\repos\ds_assignment2\LinkedList.cpp(107): warning C4715: 'Linked::remove': not all control paths return a value
+  ds_assignment2.vcxproj -> C:\Users\Shawn\source\repos\ds_assignment2\x64\Debug\ds_assignment2.exe
